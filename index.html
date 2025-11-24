@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Flipbook</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+  <div class="magazine-viewport" id="magazine-viewport">
+    <div id="zoom-container">
+      <div id="flipbook">
+      <div class="page" style="background-image: url('Pictures/0.0.png')"></div>
+      <div class="page" style="background-image: url('Pictures/0.1.png')">
+      <a href="https://t.me/ssa_iesharif" style="position: absolute; top: 89.35%; left: 54.75%; width: 50%; height: 6%;"></a>
+      <a href="https://t.me/IESUTMagazine" style="position: absolute; top: 91.35%; left: 53.75%; width: 50%; height: 6%;"></a>
+      </div>
+      <div class="page" style="background-image: url('Pictures/0.2.png')">
+        <a href="#" onclick="$('#flipbook').turn('page', 4);" style="position:absolute; top:28%; left:45%; width:45%; height:3%;"></a>
+        <a href="#" onclick="$('#flipbook').turn('page', 6);" style="position:absolute; top:33%; left:45%; width:45%; height:3%;"></a>
+        <a href="#" onclick="$('#flipbook').turn('page', 8);" style="position:absolute; top:38%; left:45%; width:45%; height:3%;"></a>
+        <a href="#" onclick="$('#flipbook').turn('page', 10);" style="position:absolute; top:44%; left:45%; width:45%; height:3%;"></a>
+        <a href="#" onclick="$('#flipbook').turn('page', 11);" style="position:absolute; top:50%; left:45%; width:45%; height:3%;"></a>
+        <a href="#" onclick="$('#flipbook').turn('page', 14);" style="position:absolute; top:56%; left:45%; width:45%; height:3%;"></a>
+        <a href="#" onclick="$('#flipbook').turn('page', 12);" style="position:absolute; top:60%; left:45%; width:45%; height:3%;"></a>
+        <a href="#" onclick="$('#flipbook').turn('page', 13);" style="position:absolute; top:64%; left:45%; width:45%; height:3%;"></a>
+        <a href="#" onclick="$('#flipbook').turn('page', 18);" style="position:absolute; top:70%; left:55%; width:45%; height:3%;"></a>
+        <a href="#" onclick="$('#flipbook').turn('page', 20);" style="position:absolute; top:76%; left:45%; width:45%; height:3%;"></a>
+      </div>
+      <div class="page" style="background-image: url('Pictures/1.png')"></div>
+      <div class="page" style="background-image: url('Pictures/2.png')">
+      <a id="open-video"
+       style="position:absolute; top:75%; left:40%; width:30%; height:25%; cursor:pointer;">
+      </a>
+      </div>
+      <div class="page" style="background-image: url('Pictures/3.png')"></div>
+      <div class="page" style="background-image: url('Pictures/4.png')"></div>
+      <div class="page" style="background-image: url('Pictures/5.png')"></div>
+      <div class="page" style="background-image: url('Pictures/6.png')"></div>
+      <div class="page" style="background-image: url('Pictures/7.png')"></div>
+      <div class="page" style="background-image: url('Pictures/8.png')"></div>
+      <div class="page" style="background-image: url('Pictures/9.png')"></div>
+      <div class="page" style="background-image: url('Pictures/10.png')"></div>
+      <div class="page" style="background-image: url('Pictures/11.png')">
+      <a href="https://t.me/hamiansut" style="position: absolute; top: 40.35%; left: 20.75%; width: 50%; height: 5%;"></a>
+      <a href="https://t.me/karafarinisharif" style="position: absolute; top: 70.35%; left: 20.75%; width: 50%; height: 5%;"></a>
+      </div>
+      <div class="page" style="background-image: url('Pictures/12.png')">
+      <a href="https://t.me/sharifmusicgroup" style="position: absolute; top: 35.35%; left: 40.75%; width: 50%; height: 5%;"></a>
+      <a href="https://t.me/theatersut" style="position: absolute; top: 65.35%; left: 20.75%; width: 50%; height: 5%;"></a>
+      <a href="https://t.me/VisualArts_Sharif" style="position: absolute; top: 88.35%; left: 20.75%; width: 50%; height: 5%;"></a>
+      </div>
+      <div class="page" style="background-image: url('Pictures/13.png')">
+      <a href="https://t.me/fardayesabz" style="position: absolute; top: 40.35%; left: 20.75%; width: 50%; height: 5%;"></a>
+      <a href="https://t.me/ksasharif" style="position: absolute; top: 80.35%; left: 20.75%; width: 50%; height: 5%;"></a>
+      </div>
+      <div class="page" style="background-image: url('Pictures/14.png')">
+      <a href="https://t.me/sutmcg" style="position: absolute; top: 70.35%; left: 20.75%; width: 50%; height: 5%;"></a>
+      </div>
+      <div class="page" style="background-image: url('Pictures/15.png')"></div>
+      <div class="page" style="background-image: url('Pictures/16.png')"></div>
+      <div class="page" style="background-image: url('Pictures/17.png')"></div>
+      <div class="page" style="background-image: url('Pictures/18.png')">
+      <a href="https://par30games.net/234359/download-american-arcadia-for-pc/" style="position: absolute; top: 91.35%; left: 20.75%; width: 50%; height: 10%;"></a>
+      </div>
+      <div class="page" style="background-image: url('Pictures/19.png')"></div>
+      <div class="page" style="background-image: url('Pictures/20.png')"></div>
+      <div class="page" style="background-image: url('Pictures/21.png')"></div>
+      <div class="page" style="background-image: url('Pictures/pic16.png')">
+        <div class="link-container">
+        <a href="https://t.me/IE_Intro" style="position: absolute; top: 15%; left: 25%; width: 15%; height: 25%;"></a>
+        <a href="https://t.me/ssa_iesharif" style="position: absolute; top: 15%; left: 55%; width: 15%; height: 25%;"></a>
+        <a href="https://youtube.com/@ssa_iesharif" style="position: absolute; top: 38%; left: 42%; width: 15%; height: 25%;"></a>
+        <a href="https://castbox.fm/va/5570318" style="position: absolute; top: 68%; left: 25%; width: 15%; height: 25%;"></a>
+        <a href="https://t.me/gamein_sharif" style="position: absolute; top: 68%; left: 55%; width: 15%; height: 25%;"></a>
+        </div>
+      </div>
+  
+  </div>
+
+
+<div id="videoModal" class="video-modal">
+  <div class="video-modal-content">
+    <span class="video-close">&times;</span>
+    <video id="videoPlayer" width="100%" controls>
+      <source src="Videos/Tos.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+
+<script>
+const modal = document.getElementById('videoModal');
+const btn = document.getElementById('open-video');
+const closeBtn = document.querySelector('.video-close');
+const video = document.getElementById('videoPlayer');
+
+// open modal
+btn.onclick = function () {
+  modal.style.display = 'block';
+  video.currentTime = 0;
+  video.play();
+};
+
+// close modal
+closeBtn.onclick = function () {
+  modal.style.display = 'none';
+  video.pause();
+};
+
+// click outside to close
+window.onclick = function (e) {
+  if (e.target === modal) {
+    modal.style.display = 'none';
+    video.pause();
+  }
+};
+</script>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script type="text/javascript" src="jquery.min.js"></script>
+  <script type="text/javascript" src="turn.min.js"></script>
+  <script type="text/javascript" src="scissor.js"></script>
+  <script type="text/javascript" src="zoom.js"></script>
+  <script src="script.js"></script>
+  <script>
+document.addEventListener('click', function (e) {
+    const page = document.querySelector('.page'); // <-- your turn.js page container
+    const rect = page.getBoundingClientRect();
+
+    const top = ((e.clientY - rect.top) / rect.height) * 100;
+    const left = ((e.clientX - rect.left) / rect.width) * 100;
+
+    console.log(`top:${top.toFixed(2)}%; left:${left.toFixed(2)}%`);
+});
+</script>
+
+
+</body>
+</html>
